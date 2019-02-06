@@ -1,0 +1,121 @@
+body{
+
+    background-color: rgb(247, 162, 235);
+    font-family: sans-serif;
+    margin: 0;
+}
+.grid{
+    /* defini grid */
+    display: grid;
+    /* defini coluna */
+    grid-template-columns: repeat(4, 25vw);
+    /* defini tamanho da linha */
+    grid-template-rows: repeat(4, 25vw);
+    grid-template-areas: 
+        "header header header header"
+        "main main sidebar sidebar"
+        "main main sidebar sidebar"
+        "footer footer footer footer";
+
+}
+
+
+header{
+    align-items: center;
+    grid-area: header;
+    background-color: rgb(230, 104, 157);
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(185, 60, 216);
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: rgb(226, 160, 160);
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgb(216, 19, 167);
+}
+
+header nav a {
+    color: aqua;
+    text-decoration: none;
+
+}
+/* 
+header nav{
+   
+    display: flex;
+    justify-content: space-around;
+     width: 30%;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+    /* 
+
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+div{
+    border: 1px solid rgb(182, 13, 13);
+    /* altura */
+    /* height: 10vw;
+    /* larguda */
+    /* margin: 20vw; 
+    width: 20vw;  
+   
+}
+
+img{
+    display: block;
+    
+    width: 100vw;
+}
+
+.banner{
+background-image: url(https://image.freepik.com/free-vector/world-environment-day-banner-green-design_23-2147623548.jpg);
+background-position: center;
+background-size: cover;
+height: 100vw;
+width: 100vw;
+
+} */
